@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Buile Phase >> Build started on `date`
       - npm install
-      - npm build
+      - npm run build
   # 빌드 후에 수행할 명령을 입력합니다.
   post_build:
     commands:
